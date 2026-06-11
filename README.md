@@ -24,6 +24,10 @@ Dero, Dwan, Dwo, Dree, Dwor, Daiv, Dix, Deven — compressed from "day zero" thr
 
 Day 0 of any Tour is Dero. Day 8 is also Dero (first day of the next Osk). As you can see the system uses 0-indexed math.
 
+Another thing to note is that each ment is equal in length, and is exactly 4 osks, so every day of every ment will be the same oskday.
+
+You can get the oskday from the day-number of the ment with the formula `day % 8`. For example if it's the 11th we know it is Dree (11 % 8 = 3, or Dree).
+
 ## Date Format & Speech
 * Written: `22.03.0850`
 * Literal: "Epoch 22, Tour 3, Day 850" or "Epoch 22, Tour 3, Ment 26, Day 18"
